@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital@1&family=Oswald&display=swap");
+:root {
+  --primary-color: #19468a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0rem;
+  background-color: #f3f4f6;
+  font-family: "Bebas Neue", cursive;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-left: 2rem;
+  color: #c5912f;
+}
+
+.input {
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border: none;
+  width: 30%;
+  height: 50px;
+  padding: 1rem;
+}
+
+.main-section {
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 40px 40px -10px rgb(61, 134, 168);
+  background-color: var(--primary-color);
+  /* background-image: url("images/Stock-trends-Up-and-Down.svg"); */
+  background-repeat: no-repeat;
+  background-size: 500px;
+  min-height: 80vh;
+  max-width: 70%;
+}
+
+label {
+  font-size: 1.6rem;
+  color: #43a814;
+  margin: auto;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+button {
+  background-color: #ffffff;
+  border: none;
+  color: #96ac1e;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+
+  margin: auto;
+  margin-top: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+button:hover {
+  background-color: #6b7280;
+}
+
+.output {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.link {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+  margin: 2rem 6rem 0rem 3rem;
+  border-radius: 0.5rem;
+  border: 2px solid #f87171;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: black;
+}
+.link:hover {
+  background-color: #f87171;
+}
+@media screen and (max-width: 1024px) {
+  label {
+    display: inline-block;
+    border: none;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .main-section {
+    padding: 0 1rem;
+    max-width: 500%;
+    min-height: 100vh;
+  }
+
+  .link {
+    width: 50%;
+    display: block;
+    position: relative;
+    margin: 2rem 6rem 0rem 12rem;
+    text-align: center;
+  }
+  body {
+    /* background-image: url("images/Stock-trends-Up-and-Down.svg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+}
