@@ -10,23 +10,20 @@
   <body>
     <section class="section">
       <div class="main-section">
-        <h1>Check your profit/loss of any particular stock</h1>
+        <h1>
+          Check your profit/loss of any stock by entering the following details
+        </h1>
         <form class="form-input">
           <label>
             Purchase Price
-            <input
-              class="input"
-              placeholder="Enter your buy price"
-              type="text"
-              required
-            />
+            <input class="input" placeholder="Buy price" type="text" required />
           </label>
           <br />
           <label>
             Quantity of Stock
             <input
               class="input"
-              placeholder=" Enter the quantity of the stock purchased"
+              placeholder="Quantity of the stock purchased"
               type="text"
               required
             />
@@ -36,12 +33,14 @@
             Sell Price
             <input
               class="input"
-              placeholder="Enter your sell price"
+              placeholder="Sell price"
               type="text"
               required
             />
           </label>
-          <button type="submit">Discover</button>
+          <button class="button" type="submit">
+            <img src="./images/salary.png" />Check
+          </button>
         </form>
         <div class="output"></div>
         <div id="motion"></div>
