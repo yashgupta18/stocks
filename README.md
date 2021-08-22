@@ -3,11 +3,7 @@
 This website helps you find the profit/loss of the stocks you are selling
 
 # Working?
+This app gives insights on profit/loss based on information about your stocks
 
-App takes inputs of:
-
-1. BUY PRICE
-2. QUANTITTY OF STOCK
-3. SELLING PRICE
-
-It will then display the total profit/loss by the user.
+## Project
+![Project](https://github.com/yashgupta18/stocks/blob/main/stocks.png)
